@@ -1,0 +1,143 @@
+body,h2{
+    margin:0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+
+    
+}
+.landing{
+    background-image: url(/pexels-toni-cuenca-619418.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    color: aliceblue;
+    
+
+}
+header a{
+    text-decoration: none;
+    color:red;
+    margin-left: 5em;
+}
+header{
+    display: flex;
+
+}
+#logo{
+    flex:1;
+    font-size: 4em;
+    
+}
+nav{
+    flex:1;
+    display: flex;
+    font-size: 1.5em;
+    /* margin-right:2 em; */
+    margin-top: .5em;
+}
+nav a{
+    flex:1
+    
+}
+nav a:hover{
+    color: azure;
+}
+.maintext{
+    display:flex;
+    flex-direction: column;
+    height:120vh;
+    justify-content: center;
+    padding: 1.5em
+
+}
+.tagline1{
+    color:orangered;
+    font-size: 2em;
+}
+.tagline2{
+    color:orange;
+    font-size:1.5em;
+}
+.callus{
+    font-size: 1.2em;
+}
+.maintext div{
+    margin: .15em;
+}
+
+.maintext button{
+    width:20vw;
+    margin-top:2em ;
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+    padding: .7em;
+    font-size: 1em;
+    
+
+}    
+.tagline3{
+    color: red;
+    font-size: 1.2em;
+    margin-left: 19.5em;
+
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    background:linear-gradient(to right,black,orangered,black);
+    color:black;
+    font-size: 1.3em;
+    font-style: bold;
+    
+
+}
+#menuheading,#locheading{
+    background: linear-gradient(to right,black,orangered,black);
+    font-size: 2.3em;
+    color: black;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+.menu th{
+    color:black;
+    font-size: 1.5em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    flex: .5;
+    justify-self: left;
+
+
+}
+.menu td:nth-child(2){
+    justify-self: right;
+
+
+}
+.location{
+    background:linear-gradient(to right,black,orangered,black);
+    color:black;
+    margin-bottom: 1em;
+    display:flex;
+    padding-left: 28em;
+    font-size: 1.3em;
+    
+
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 1em;
+}
